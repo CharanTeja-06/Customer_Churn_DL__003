@@ -1,14 +1,14 @@
 # Customer_Churn_DL__003
 
-# 📊 Comparative Analysis of Machine Learning and Deep Learning Models for Customer Churn Prediction Using TensorFlow
+# Comparative Analysis of Machine Learning and Deep Learning Models for Customer Churn Prediction Using TensorFlow
 
-## 🎯 Aim
+##  Aim
 
 To build and compare **Machine Learning** and **Deep Learning** models for predicting customer churn and analyze their performance using standard evaluation metrics.
 
 ---
 
-## 📌 Scope
+##  Scope
 
 This practical covers:
 
@@ -22,7 +22,7 @@ This practical covers:
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 ### Telco Customer Churn Dataset
 
@@ -40,7 +40,7 @@ This practical covers:
 
 ---
 
-## 🛠️ Libraries Required
+##  Libraries Required
 
 The following Python libraries are used in this practical:
 
@@ -53,7 +53,7 @@ The following Python libraries are used in this practical:
 
 ---
 
-## 📝 Practical Description
+##  Practical Description
 
 Customer churn prediction is one of the most common business problems in **telecommunications, banking, insurance, and subscription-based services**.
 
@@ -73,7 +73,7 @@ The practical involves:
 
 ---
 
-## 🤖 Machine Learning Models
+##  Machine Learning Models
 
 The following Machine Learning classification models are implemented:
 
@@ -86,7 +86,7 @@ In addition, a **Deep Neural Network (DNN)** is developed using **TensorFlow**.
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 All models are evaluated using the following performance metrics:
 
@@ -102,7 +102,7 @@ Confusion matrices and performance graphs are also generated to visualize and co
 
 ---
 
-# 📊 Model Performance Comparison
+#  Model Performance Comparison
 
 | Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC | Training Time (s) | Prediction Time (s) |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -114,27 +114,27 @@ Confusion matrices and performance graphs are also generated to visualize and co
 
 ---
 
-# 🔍 Results Analysis
+#  Results Analysis
 
 Based on the experimental results:
 
-- 🏆 **Decision Tree** achieved the highest **Accuracy of 80.95%**.
-- 🏆 **Logistic Regression** achieved the highest **ROC-AUC score of 0.8615**.
-- 🏆 **Support Vector Machine** achieved the highest **Precision of 0.7479**.
-- 🏆 **Deep Neural Network** achieved the highest **Recall of 0.5924**.
-- 🏆 **Deep Neural Network** also achieved the highest **F1-Score of 0.6324**.
-- ⚡ **Logistic Regression** had a very low prediction time of **0.002 seconds**.
-- ⚡ **Decision Tree** had the lowest training time of approximately **0.0322 seconds**.
-- 🧠 **Deep Neural Network** required the highest training time at approximately **9.8424 seconds**.
-- ⏱️ **SVM** required considerably more training and prediction time compared with the other traditional Machine Learning models.
+-  **Decision Tree** achieved the highest **Accuracy of 80.95%**.
+-  **Logistic Regression** achieved the highest **ROC-AUC score of 0.8615**.
+-  **Support Vector Machine** achieved the highest **Precision of 0.7479**.
+-  **Deep Neural Network** achieved the highest **Recall of 0.5924**.
+-  **Deep Neural Network** also achieved the highest **F1-Score of 0.6324**.
+-  **Logistic Regression** had a very low prediction time of **0.002 seconds**.
+-  **Decision Tree** had the lowest training time of approximately **0.0322 seconds**.
+-  **Deep Neural Network** required the highest training time at approximately **9.8424 seconds**.
+-  **SVM** required considerably more training and prediction time compared with the other traditional Machine Learning models.
 
 ---
 
-# 🏆 Best Performing Model
+#  Best Performing Model
 
 Based on **ROC-AUC**, **Logistic Regression** is the best-performing model with a score of:
 
-### ⭐ ROC-AUC = 0.8615
+###  ROC-AUC = 0.8615
 
 Although the Decision Tree achieved slightly higher accuracy, Logistic Regression achieved the **highest ROC-AUC score** and also provided excellent computational efficiency.
 
@@ -146,7 +146,7 @@ Therefore, based on the overall results of this experiment:
 
 ---
 
-# 📌 Conclusion
+#  Conclusion
 
 This practical demonstrated the application of **Machine Learning and Deep Learning techniques for customer churn prediction** using the Telco Customer Churn Dataset.
 
@@ -165,26 +165,4 @@ This project demonstrates how predictive analytics can help organizations identi
 
 ---
 
-# 👨‍💻 Author
-
-**Name:** Charan Teja Raipally  
-**Email:** raipallycharanteja@gmail.com
-
----
-
-## ⭐ Project Highlights
-
-> **Machine Learning + Deep Learning + TensorFlow + Customer Churn Prediction**
-
-**Best Model:** Logistic Regression  
-**Best ROC-AUC:** 0.8615  
-**Best Accuracy:** Decision Tree – 80.95%  
-**Best F1-Score:** Deep Neural Network – 0.6324
-
-
-
-### Author
-
-**Name:** Charan Teja Raipally
-**Email:**  raipallycharanteja@gmail.com
 
